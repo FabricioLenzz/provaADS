@@ -22,7 +22,7 @@ O servidor estará disponível em http://localhost:8000.
 Usuários
 Criar Usuário
 
-POST /api/v1/usuario Body: json { "nome": "Nome do Usuário", "email": "email@gmail.com", "senha": "12345" }
+POST /api/v1/usuario Body: json { "nome": "Nome do Usuário", "email": "email@gmail.com", "senha": "12345", "datanasc": "26/00/1990" }
 Login
 
 POST /api/v1/login Body: json { "email": "email@exemplo.com", "senha": "senha123" }
@@ -31,7 +31,7 @@ Obter Usuário por ID
 GET /api/v1/usuario
 Atualizar Usuário
 
-PUT /api/v1/usuario/1 Body: json { "nome": "Nome Atualizado", "email": "emailAtualizado@gmail.com", "senha": "12345Atualizado" }
+PUT /api/v1/usuario/1 Body: json { "nome": "Nome Atualizado", "email": "emailAtualizado@gmail.com", "senha": "12345Atualizado", "datanasc": "26/00/1990" }
 Deletar Usuário
 
 DELETE /api/v1/usuario/id
