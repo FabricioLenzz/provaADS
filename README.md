@@ -38,13 +38,13 @@ DELETE /api/v1/usuario/id
 Projetos
 Criar Projeto
 
-POST /api/v1/projeto/ Body: json { "nome": "Nome do Projeto", "desc": "Descrição do Projeto", "dtCreate": "2024-01-01", "autorId": 1 }
+POST /api/v1/projeto/ Body: json { "nome": "Nome do Projeto", "desc": "Descrição do Projeto", "data": "26/22/1222", "dtCreate": "2024-01-01", "autorId": 1 }
 Obter Projeto por ID
 
 GET /api/v1/projeto/
 Atualizar Projeto
 
-PUT /api/v1/projeto/:id Body: json { "nome": "Nome Atualizado do Projeto", "desc": "Descrição Atualizada do Projeto", "dtCreate": "2024-01-01", "autorId": 1 }
+PUT /api/v1/projeto/:id Body: json { "nome": "Nome Atualizado do Projeto", "desc": "Descrição Atualizada do Projeto", "data": "26/22/1222", "dtCreate": "2024-01-01", "autorId": 1 }
 Deletar Projeto
 
 DELETE /api/v1/projeto/:id
