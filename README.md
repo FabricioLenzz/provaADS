@@ -6,7 +6,7 @@ No sistema o email é único para cada usuário. No sistema apenas usuarios loga
 Instalação
 Clone o repositório:
 
-git clone 
+git clone  https://github.com/FabricioLenzz/provaADS.git
 
 Navegue até o diretório do projeto: cd Gestao-tarefas-projetos
 
